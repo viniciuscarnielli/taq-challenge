@@ -37,10 +37,11 @@ const Home = () => {
     <Wrapper>
       {personagens.map((p) => (
         <BlocoPersonagem
-          nome={p.name}
           id={p.id}
+          nome={p.name}
           status={p.status}
           imagem={p.image}
+          linkAtivo={true}
         />
       ))}
     </Wrapper>

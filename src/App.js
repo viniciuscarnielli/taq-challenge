@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from './components/Home/Home';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
+import Personagem from './components/Personagem/Personagem';
 
 const client = new ApolloClient({
   uri: "https://rickandmortyapi.com/graphql",
@@ -14,8 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<div>Essa é a about</div>}/>
-          <Route path="/teste" element={<div>Essa é a teste</div>}/>
+          <Route path="/personagem/:id" element={<Personagem />}/>
         </Routes>
       </BrowserRouter>
     </ApolloProvider>
