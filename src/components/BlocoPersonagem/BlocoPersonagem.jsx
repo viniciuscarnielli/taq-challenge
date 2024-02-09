@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Personagem = ({ id, nome, status, imagem }) => {
+const BlocoPersonagem = ({ id, nome, status, imagem }) => {
   return (
     <Wrapper>
       <Imagem src={imagem} alt={`Foto do personagem ${nome}`} />
@@ -33,4 +33,4 @@ const Imagem = styled.img`
   object-fit: cover;
 `;
 
-export default Personagem;
+export default BlocoPersonagem;

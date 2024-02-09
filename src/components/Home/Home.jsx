@@ -1,5 +1,5 @@
 import { gql, useQuery } from "@apollo/client";
-import Personagem from "../Personagem/Personagem";
+import BlocoPersonagem from "../BlocoPersonagem/BlocoPersonagem";
 import styled from "styled-components";
 
 const QUERY_BASICA = gql`
@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <Wrapper>
       {personagens.map((p) => (
-        <Personagem
+        <BlocoPersonagem
           nome={p.name}
           id={p.id}
           status={p.status}
