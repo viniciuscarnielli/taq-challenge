@@ -1,3 +1,21 @@
+### Referencias utilizadas:
+
+### **Vídeos:**
+
+- [Curso de ReactJS - Canal do YouTube](https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO)
+- [Curso de React Hooks - Canal do YouTube](https://www.youtube.com/watch?v=RyqLvFhPNy8&list=PLK5FPzMuRKlyeZYiJNA54j4lpfxHGlz0j)
+- [Curso de React Native - Canal do YouTube](https://www.youtube.com/playlist?list=PLV8x_i1fqBw3wHa7HOle0MMAcRjfViWwC)
+- [Curso de GraphQL - Canal do YouTube](https://www.youtube.com/watch?v=vQGP8iX4Qek&list=PLCkq0gTXZ8i-vrk2ZwCTWJhc4mvBzn7Ua)
+
+### **Websites:**
+
+- [Site de Rick and Morty](https://rickandmortysite.vercel.app/)
+- [Documentação do BrowserRouter do React Router v5](https://v5.reactrouter.com/web/api/BrowserRouter)
+- [Documentação do Apollo GraphQL para React](https://www.apollographql.com/docs/react/)
+- [Tutorial de Consultas GraphQL](https://graphql.org/learn/queries/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
